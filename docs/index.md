@@ -46,10 +46,10 @@
 </colgroup>
 <thead><tr><th>等級</th><th>CVSS 分數</th><th>說明</th></tr></thead>
 <tbody>
-<tr><td><span style="color:#ff003c">●</span> 重大 (Critical)</td><td>9.0 – 10.0</td><td>可被遠端利用，無需認證，影響範圍廣</td></tr>
-<tr><td><span style="color:#ff6600">●</span> 高 (High)</td><td>7.0 – 8.9</td><td>可被利用，有明確 PoC 或已被在野利用</td></tr>
-<tr><td><span style="color:#ffd700">●</span> 中 (Medium)</td><td>4.0 – 6.9</td><td>需特定條件才能利用</td></tr>
-<tr><td><span style="color:#00ff88">●</span> 低 (Low)</td><td>0.1 – 3.9</td><td>利用條件嚴苛或影響有限</td></tr>
+<tr><td><span style="color:#ff003c">●</span> 重大 (Critical)</td><td><nobr>9.0 – 10.0</nobr></td><td>可被遠端利用，無需認證，影響範圍廣</td></tr>
+<tr><td><span style="color:#ff6600">●</span> 高 (High)</td><td><nobr>7.0 – 8.9</nobr></td><td>可被利用，有明確 PoC 或已被在野利用</td></tr>
+<tr><td><span style="color:#ffd700">●</span> 中 (Medium)</td><td><nobr>4.0 – 6.9</nobr></td><td>需特定條件才能利用</td></tr>
+<tr><td><span style="color:#00ff88">●</span> 低 (Low)</td><td><nobr>0.1 – 3.9</nobr></td><td>利用條件嚴苛或影響有限</td></tr>
 </tbody>
 </table>
 
