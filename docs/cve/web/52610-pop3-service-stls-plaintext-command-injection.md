@@ -6,7 +6,6 @@
 | CVSS v3 | **N/A** |
 | VPR | N/A |
 | EPSS | N/A |
-| 最後偵測日期 | 2026-05-20 |
 | Plugin ID | `52610` |
 
 ## CVE 編號

@@ -119,7 +119,6 @@ def main():
 | CVSS v3 | **{cvss_str}** |
 | VPR | {vpr_str} |
 | EPSS | {epss_str} |
-| 最後偵測日期 | {last_seen or 'N/A'} |
 | Plugin ID | `{plugin_id}` |
 
 ## CVE 編號
