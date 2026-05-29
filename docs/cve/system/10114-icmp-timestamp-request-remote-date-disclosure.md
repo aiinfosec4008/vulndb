@@ -4,8 +4,8 @@
 |------|------|
 | 嚴重度 | <span style="color:#00ff88">●</span> Low |
 | CVSS v3 | **N/A** |
-| VPR | N/A |
-| EPSS | N/A |
+| VPR | 2.2 |
+| EPSS | 37.00% |
 | Plugin ID | `10114` |
 
 ## CVE 編號

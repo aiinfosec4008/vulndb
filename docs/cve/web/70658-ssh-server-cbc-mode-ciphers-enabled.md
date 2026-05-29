@@ -4,8 +4,8 @@
 |------|------|
 | 嚴重度 | <span style="color:#00ff88">●</span> Low |
 | CVSS v3 | **3.7** |
-| VPR | N/A |
-| EPSS | N/A |
+| VPR | 1.4 |
+| EPSS | 307.00% |
 | Plugin ID | `70658` |
 
 ## CVE 編號

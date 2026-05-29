@@ -7,8 +7,9 @@ import re
 from datetime import datetime
 from collections import defaultdict
 
-DB_PATH   = os.path.join(os.path.dirname(__file__), "../VA/vuln.db")
-DOCS_PATH = os.path.join(os.path.dirname(__file__), "docs/cve")
+DB_PATH    = os.path.join(os.path.dirname(__file__), "../VA/vuln.db")
+DOCS_PATH  = os.path.join(os.path.dirname(__file__), "docs/cve")
+PRIORITY_PAGE = os.path.join(os.path.dirname(__file__), "docs/priority.md")
 
 SEVERITY_ICON = {
     "CRITICAL": '<span style="color:#ff003c">●</span> Critical',
@@ -156,6 +157,98 @@ def main():
 """
         with open(os.path.join(cat_dir, "index.md"), "w", encoding="utf-8") as f:
             f.write(index_content)
+
+    # ── 近期優先修補頁 ──
+    con2 = sqlite3.connect(DB_PATH)
+    cur2 = con2.cursor()
+    cur2.execute("""
+        SELECT plugin_id, plugin_name, severity, cvss_v3, vpr, epss
+        FROM vuln
+        WHERE vpr > 0 AND severity != 'INFO'
+        GROUP BY plugin_id
+        ORDER BY vpr DESC
+    """)
+    priority_rows = cur2.fetchall()
+    con2.close()
+
+    def vpr_label(v):
+        if v >= 9.0: return ("立即處理", "#ff003c", "7 天內")
+        if v >= 7.0: return ("優先排程", "#ff6600", "30 天內")
+        return ("一般排程", "#ffd700", "90 天內")
+
+    def epss_pct(e):
+        return f"{float(e)*100:.1f}%" if e else "N/A"
+
+    urgent   = [(r, *vpr_label(r[4])) for r in priority_rows if r[4] >= 9.0]
+    high_pri = [(r, *vpr_label(r[4])) for r in priority_rows if 7.0 <= r[4] < 9.0]
+    normal   = [(r, *vpr_label(r[4])) for r in priority_rows if r[4] < 7.0]
+
+    def table_rows(items):
+        rows = []
+        for (pid, name, sev, cvss, vpr, epss), label, color, deadline in items:
+            cat = classify(name)
+            fname = f"cve/{cat}/{pid}-{safe_filename(name)}.md"
+            sev_icon = SEVERITY_ICON.get(sev, sev)
+            rows.append(
+                f"| [{name}]({fname}) | {sev_icon} | "
+                f"{cvss:.1f} | **{vpr:.1f}** | {epss_pct(epss)} | "
+                f'<span style="color:{color}">{label}</span> |'
+            )
+        return "\n".join(rows) if rows else "_（目前無資料）_"
+
+    updated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
+    priority_content = f"""# 近期優先修補清單
+
+依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
+
+**資料更新時間：** `{updated_at}`
+
+---
+
+## 說明
+
+| VPR 分數 | 建議行動 | 目標期限 |
+|---------|---------|---------|
+| <span style="color:#ff003c">●</span> 9.0 以上 | 立即處理 | 7 天內 |
+| <span style="color:#ff6600">●</span> 7.0 – 8.9 | 優先排程 | 30 天內 |
+| <span style="color:#ffd700">●</span> 4.0 – 6.9 | 一般排程 | 90 天內 |
+
+!!! info "EPSS 說明"
+    EPSS（Exploit Prediction Scoring System）代表該弱點在未來 30 天內被實際利用的機率，數值越高代表風險越迫切。
+
+---
+
+## 立即處理（VPR ≥ 9.0）
+
+共 **{len(urgent)}** 個
+
+| 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
+|---------|--------|---------|-----|------|------|
+{table_rows(urgent)}
+
+---
+
+## 優先排程（VPR 7.0 – 8.9）
+
+共 **{len(high_pri)}** 個
+
+| 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
+|---------|--------|---------|-----|------|------|
+{table_rows(high_pri)}
+
+---
+
+## 一般排程（VPR 4.0 – 6.9）
+
+共 **{len(normal)}** 個
+
+| 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
+|---------|--------|---------|-----|------|------|
+{table_rows(normal)}
+"""
+    with open(PRIORITY_PAGE, "w", encoding="utf-8") as f:
+        f.write(priority_content)
+    print(f"  優先修補頁：立即 {len(urgent)} 個 / 優先 {len(high_pri)} 個 / 一般 {len(normal)} 個")
 
     print(f"完成：共產生 {generated} 個弱點頁面")
     print(f"  Web 類：{len(categories['web'])} 個")
