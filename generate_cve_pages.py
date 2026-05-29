@@ -119,7 +119,6 @@ def main():
 | CVSS v3 | **{cvss_str}** |
 | VPR | {vpr_str} |
 | EPSS | {epss_str} |
-| 受影響系統數 | **{host_count}** 台 |
 | 最後偵測日期 | {last_seen or 'N/A'} |
 | Plugin ID | `{plugin_id}` |
 
@@ -138,22 +137,22 @@ def main():
             with open(fpath, "w", encoding="utf-8") as f:
                 f.write(content)
 
-            page_list.append((severity, cvss_v3 or 0, plugin_name, fname, host_count))
+            page_list.append((severity, cvss_v3 or 0, plugin_name, fname))
             generated += 1
 
         # 分類索引頁
         page_list.sort(key=lambda x: (severity_order(x[0]), -x[1]))
         index_rows = "\n".join(
             f"| [{name}]({fname}) | {SEVERITY_ICON.get(sev, sev)} | "
-            f"{f'{cvss:.1f}' if cvss else 'N/A'} | {cnt} 台 |"
-            for sev, cvss, name, fname, cnt in page_list
+            f"{f'{cvss:.1f}' if cvss else 'N/A'} |"
+            for sev, cvss, name, fname in page_list
         )
         index_content = f"""# {cat_labels[cat]}弱點清單
 
 共 **{len(page_list)}** 個弱點，依嚴重度排序。
 
-| 弱點名稱 | 嚴重度 | CVSS v3 | 受影響系統數 |
-|---------|--------|---------|-------------|
+| 弱點名稱 | 嚴重度 | CVSS v3 |
+|---------|--------|---------|
 {index_rows}
 """
         with open(os.path.join(cat_dir, "index.md"), "w", encoding="utf-8") as f:
