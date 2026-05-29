@@ -16,14 +16,6 @@
 
     [:octicons-arrow-right-24: 查閱弱點](cve/index.md)
 
-- :material-map-marker-alert: **院內風險地圖**
-
-    ---
-
-    中研院特定資產的風險情境與高風險系統清單。
-
-    [:octicons-arrow-right-24: 查看風險](internal-risks/index.md)
-
 - :material-sword: **攻擊手法 (TTPs)**
 
     ---

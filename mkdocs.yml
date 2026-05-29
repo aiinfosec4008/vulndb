@@ -63,6 +63,5 @@ nav:
     - Web 類: cve/web/index.md
     - 系統類: cve/system/index.md
     - 服務類: cve/services/index.md
-  - 院內風險地圖: internal-risks/index.md
   - 攻擊手法 (TTPs): ttps/index.md
   - 資安政策與規範: policy/index.md
