@@ -1,9 +1,14 @@
 # 弱點百科 (CVE)
 
-本區整理中研院環境常見弱點，依類型分類，每筆包含弱點說明、風險等級、影響範圍與修補建議。
+本區整理中研院 VA 掃描結果的已知弱點，依類型分類，每筆包含嚴重度、CVSS 分數、受影響系統數量與修補建議。受影響主機資訊不公開列出。
 
-## 分類
+## 分類總覽
 
-- [Web 類](web/index.md) — XSS、SQL Injection、SSRF、反序列化等
-- [系統類](system/index.md) — Windows、Linux 系統層弱點
-- [服務類](services/index.md) — Exchange、VPN、AD、資料庫等服務弱點
+| 分類 | 說明 | 弱點數 |
+|------|------|--------|
+| [Web 類](web/index.md) | SSL/TLS、HTTP、Web 伺服器相關弱點 | 17 |
+| [服務類](services/index.md) | SSH、Mail、DNS、RDP 等服務弱點 | 10 |
+| [系統類](system/index.md) | OS、SMB、網路協定相關弱點 | 3 |
+
+!!! info "資料來源"
+    弱點資料由 Nessus VA 掃描結果自動匯入，不含主機名稱與 IP 位址。如需主機對應資訊請洽資安科。
