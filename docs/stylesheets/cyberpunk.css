@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap');
+
+/* ── 色彩變數（對齊 VA Webapp）── */
+[data-md-color-scheme="slate"] {
+  --neon-cyan:   #00d4ff;
+  --neon-pink:   #ff00ff;
+  --neon-green:  #00ff88;
+  --neon-red:    #ff003c;
+  --neon-orange: #ff6600;
+  --neon-yellow: #ffd700;
+  --neon-purple: #aa55ff;
+
+  --bg-root:    #07070f;
+  --bg-card:    #0c0c1e;
+  --bg-sidebar: #05050d;
+  --bg-topbar:  #080812;
+  --border-hot: rgba(0, 212, 255, 0.55);
+  --txt-main:   #b8c8e0;
+  --txt-muted:  #4a6a8a;
+
+  --md-default-bg-color:          #07070f;
+  --md-default-bg-color--light:   #0c0c1e;
+  --md-default-bg-color--lighter: #10101e;
+  --md-default-fg-color:          #b8c8e0;
+  --md-default-fg-color--light:   #4a6a8a;
+  --md-default-fg-color--lighter: #2a4a6a;
+  --md-primary-fg-color:          #00d4ff;
+  --md-primary-fg-color--light:   #0090bb;
+  --md-primary-bg-color:          #07070f;
+  --md-accent-fg-color:           #ff00ff;
+  --md-accent-fg-color--transparent: #ff00ff20;
+  --md-typeset-a-color:           #00d4ff;
+  --md-code-bg-color:             #05050d;
+  --md-code-fg-color:             #00ff88;
+}
+
+/* ── 字型 ── */
+body, .md-typeset {
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  color: var(--txt-main);
+}
+
+h1, h2, h3, h4, h5, h6,
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ── 數字雨 canvas（背景，對齊 VA Webapp 深藍紫調）── */
+#matrix-rain {
+  opacity: 0.04;
+  filter: hue-rotate(190deg);  /* 綠色轉成青藍色，符合 cyberpunk 主色 */
+}
+
+/* ── 掃描線（與 VA Webapp 一致）── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 20, 0.08) 2px,
+    rgba(0, 0, 20, 0.08) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* ── Header ── */
+.md-header {
+  background: var(--bg-topbar) !important;
+  border-bottom: 1px solid var(--border-hot);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
+}
+
+.md-header__title {
+  font-family: 'Orbitron', monospace !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  color: var(--neon-cyan) !important;
+  text-shadow: 0 0 10px var(--neon-cyan), 0 0 25px rgba(0, 212, 255, 0.4);
+}
+
+/* ── 頁籤列 ── */
+.md-tabs {
+  background: var(--bg-topbar) !important;
+  border-bottom: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.md-tabs__link {
+  font-family: 'Orbitron', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--txt-muted) !important;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: var(--neon-cyan) !important;
+  text-shadow: 0 0 8px var(--neon-cyan);
+}
+
+/* ── 側邊欄 ── */
+.md-sidebar__scrollwrap {
+  background: var(--bg-sidebar) !important;
+  border-right: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.md-nav__title {
+  font-family: 'Orbitron', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--neon-pink) !important;
+  text-shadow: 0 0 6px rgba(255, 0, 255, 0.5);
+}
+
+.md-nav__link {
+  color: var(--txt-muted) !important;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.82rem;
+  transition: color 0.15s, text-shadow 0.15s, padding-left 0.15s;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: var(--neon-cyan) !important;
+  text-shadow: 0 0 6px var(--neon-cyan);
+  padding-left: 0.8rem;
+}
+
+.md-nav__link--active::before {
+  content: '> ';
+  color: var(--neon-pink);
+  opacity: 0.7;
+}
+
+/* ── 文章內容區 ── */
+.md-content__inner {
+  background: rgba(7, 7, 20, 0.75);
+  backdrop-filter: blur(2px);
+}
+
+/* ── 標題 ── */
+.md-typeset h1 {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 10px var(--neon-cyan), 0 0 25px rgba(0, 212, 255, 0.3);
+  border-bottom: 1px solid var(--border-hot);
+  padding-bottom: 0.5rem;
+}
+
+.md-typeset h1::before {
+  content: '// ';
+  color: var(--neon-pink);
+  opacity: 0.7;
+  font-size: 0.85em;
+}
+
+.md-typeset h1::after {
+  content: '_';
+  animation: blink 1s step-end infinite;
+  color: var(--neon-cyan);
+  margin-left: 4px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.md-typeset h2 {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 6px rgba(0, 212, 255, 0.5);
+  border-left: 3px solid var(--neon-cyan);
+  padding-left: 0.8rem;
+}
+
+.md-typeset h2::before {
+  content: '> ';
+  color: var(--neon-pink);
+  opacity: 0.7;
+}
+
+.md-typeset h3 {
+  color: #7ecfef;
+  text-shadow: 0 0 4px rgba(0, 212, 255, 0.3);
+}
+
+.md-typeset h3::before {
+  content: '# ';
+  color: var(--txt-muted);
+  opacity: 0.8;
+}
+
+/* ── 一般文字 ── */
+.md-typeset p, .md-typeset li {
+  color: var(--txt-main);
+  line-height: 1.9;
+}
+
+/* ── 連結 ── */
+.md-typeset a {
+  color: var(--neon-cyan) !important;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0, 212, 255, 0.35);
+  transition: text-shadow 0.2s, border-color 0.2s;
+}
+
+.md-typeset a:hover {
+  text-shadow: 0 0 8px var(--neon-cyan);
+  border-bottom-color: var(--neon-cyan);
+}
+
+/* ── 表格 ── */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.85rem;
+}
+
+.md-typeset table:not([class]) th {
+  background: rgba(0, 212, 255, 0.07);
+  color: var(--neon-cyan);
+  font-family: 'Orbitron', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  text-shadow: 0 0 6px var(--neon-cyan);
+  text-transform: uppercase;
+}
+
+.md-typeset table:not([class]) td {
+  border: 1px solid rgba(0, 212, 255, 0.1);
+  color: var(--txt-main);
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: rgba(0, 212, 255, 0.04);
+  border-color: rgba(0, 212, 255, 0.25);
+}
+
+/* ── Admonition 提示框 ── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-left: 3px solid var(--neon-cyan);
+  background: rgba(0, 212, 255, 0.04);
+  box-shadow: inset 0 0 20px rgba(0, 212, 255, 0.03);
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background: rgba(0, 212, 255, 0.07);
+  font-family: 'Orbitron', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: var(--neon-cyan);
+  text-transform: uppercase;
+}
+
+.md-typeset .warning {
+  border-left-color: var(--neon-orange);
+}
+.md-typeset .warning > .admonition-title {
+  background: rgba(255, 102, 0, 0.07);
+  color: var(--neon-orange);
+  text-shadow: 0 0 6px rgba(255, 102, 0, 0.5);
+}
+
+.md-typeset .danger {
+  border-left-color: var(--neon-red);
+}
+.md-typeset .danger > .admonition-title {
+  background: rgba(255, 0, 60, 0.07);
+  color: var(--neon-red);
+  text-shadow: 0 0 6px rgba(255, 0, 60, 0.5);
+}
+
+.md-typeset .tip {
+  border-left-color: var(--neon-green);
+}
+.md-typeset .tip > .admonition-title {
+  background: rgba(0, 255, 136, 0.06);
+  color: var(--neon-green);
+  text-shadow: 0 0 6px rgba(0, 255, 136, 0.4);
+}
+
+/* ── 程式碼 ── */
+.md-typeset pre {
+  background: var(--bg-sidebar);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.06);
+}
+
+.md-typeset pre > code {
+  color: var(--neon-green);
+  background: transparent;
+}
+
+.md-typeset code {
+  background: rgba(0, 212, 255, 0.07);
+  color: var(--neon-green);
+  padding: 0.1em 0.4em;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+/* ── 搜尋框 ── */
+.md-search__input {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-hot) !important;
+  color: var(--neon-cyan) !important;
+  font-family: 'Share Tech Mono', monospace !important;
+}
+
+.md-search__input::placeholder {
+  color: var(--txt-muted) !important;
+}
+
+.md-search__input:focus {
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.3) !important;
+}
+
+/* ── 頁尾 ── */
+.md-footer {
+  background: var(--bg-topbar) !important;
+  border-top: 1px solid rgba(0, 212, 255, 0.15);
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.md-footer-meta {
+  background: var(--bg-sidebar) !important;
+}
+
+/* ── 捲動條 ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-sidebar); }
+::-webkit-scrollbar-thumb {
+  background: var(--border-hot);
+  border-radius: 3px;
+}
+
+/* ── 首頁卡片 ── */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  background: var(--bg-card);
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.05);
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
+
+  /* 角落框線效果（對齊 VA Webapp）*/
+  position: relative;
+}
+
+.md-typeset .grid.cards > ul > li::before,
+.md-typeset .grid.cards > ul > li::after {
+  content: '';
+  position: absolute;
+  width: 10px; height: 10px;
+  border-color: var(--neon-cyan);
+  border-style: solid;
+}
+.md-typeset .grid.cards > ul > li::before {
+  top: -1px; left: -1px;
+  border-width: 2px 0 0 2px;
+}
+.md-typeset .grid.cards > ul > li::after {
+  bottom: -1px; right: -1px;
+  border-width: 0 2px 2px 0;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover {
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 25px rgba(0, 212, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* ── 回到頂部 ── */
+.md-top {
+  background: var(--bg-card);
+  border: 1px solid var(--border-hot);
+  color: var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+  font-family: 'Share Tech Mono', monospace;
+}

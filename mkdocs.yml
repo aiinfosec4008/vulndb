@@ -14,15 +14,6 @@ theme:
     - scheme: slate
       primary: deep purple
       accent: cyan
-      toggle:
-        icon: material/weather-sunny
-        name: 切換為亮色模式
-    - scheme: default
-      primary: deep purple
-      accent: cyan
-      toggle:
-        icon: material/weather-night
-        name: 切換為暗色模式
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -35,6 +26,12 @@ theme:
     - content.code.copy
   icon:
     repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/cyberpunk.css
+
+extra_javascript:
+  - javascripts/matrix-rain.js
 
 plugins:
   - search:
