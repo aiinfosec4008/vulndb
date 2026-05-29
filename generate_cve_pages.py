@@ -11,11 +11,11 @@ DB_PATH   = os.path.join(os.path.dirname(__file__), "../VA/vuln.db")
 DOCS_PATH = os.path.join(os.path.dirname(__file__), "docs/cve")
 
 SEVERITY_ICON = {
-    "CRITICAL": ":material-circle:{ style='color:#ff003c' } Critical",
-    "HIGH":     ":material-circle:{ style='color:#ff6600' } High",
-    "MEDIUM":   ":material-circle:{ style='color:#ffd700' } Medium",
-    "LOW":      ":material-circle:{ style='color:#00ff88' } Low",
-    "INFO":     ":material-circle:{ style='color:#4a6a8a' } Info",
+    "CRITICAL": '<span style="color:#ff003c">●</span> Critical',
+    "HIGH":     '<span style="color:#ff6600">●</span> High',
+    "MEDIUM":   '<span style="color:#ffd700">●</span> Medium',
+    "LOW":      '<span style="color:#00ff88">●</span> Low',
+    "INFO":     '<span style="color:#4a6a8a">●</span> Info',
 }
 
 def classify(plugin_name: str) -> str:

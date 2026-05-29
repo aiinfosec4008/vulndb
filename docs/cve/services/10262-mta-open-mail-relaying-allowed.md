@@ -2,7 +2,7 @@
 
 | 欄位 | 內容 |
 |------|------|
-| 嚴重度 | :material-circle:{ style='color:#ff6600' } High |
+| 嚴重度 | <span style="color:#ff6600">●</span> High |
 | CVSS v3 | **7.5** |
 | VPR | N/A |
 | EPSS | N/A |

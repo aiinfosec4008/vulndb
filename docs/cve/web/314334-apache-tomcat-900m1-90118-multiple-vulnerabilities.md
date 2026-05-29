@@ -2,7 +2,7 @@
 
 | 欄位 | 內容 |
 |------|------|
-| 嚴重度 | :material-circle:{ style='color:#ff003c' } Critical |
+| 嚴重度 | <span style="color:#ff003c">●</span> Critical |
 | CVSS v3 | **9.8** |
 | VPR | N/A |
 | EPSS | N/A |

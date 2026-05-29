@@ -2,7 +2,7 @@
 
 | 欄位 | 內容 |
 |------|------|
-| 嚴重度 | :material-circle:{ style='color:#ffd700' } Medium |
+| 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **5.3** |
 | VPR | N/A |
 | EPSS | N/A |
