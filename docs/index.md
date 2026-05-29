@@ -38,12 +38,20 @@
 
 ## 風險等級說明
 
-| 等級 | CVSS 分數 | 說明 |
-|------|-----------|------|
-| :material-circle:{ style="color: #d32f2f" } 重大 (Critical) | 9.0 – 10.0 | 可被遠端利用，無需認證，影響範圍廣 |
-| :material-circle:{ style="color: #f57c00" } 高 (High) | 7.0 – 8.9 | 可被利用，有明確 PoC 或已被在野利用 |
-| :material-circle:{ style="color: #fbc02d" } 中 (Medium) | 4.0 – 6.9 | 需特定條件才能利用 |
-| :material-circle:{ style="color: #388e3c" } 低 (Low) | 0.1 – 3.9 | 利用條件嚴苛或影響有限 |
+<table>
+<colgroup>
+  <col style="width: 18%">
+  <col style="width: 14%">
+  <col>
+</colgroup>
+<thead><tr><th>等級</th><th>CVSS 分數</th><th>說明</th></tr></thead>
+<tbody>
+<tr><td>:material-circle:{ style="color: #d32f2f" } 重大 (Critical)</td><td>9.0 – 10.0</td><td>可被遠端利用，無需認證，影響範圍廣</td></tr>
+<tr><td>:material-circle:{ style="color: #f57c00" } 高 (High)</td><td>7.0 – 8.9</td><td>可被利用，有明確 PoC 或已被在野利用</td></tr>
+<tr><td>:material-circle:{ style="color: #fbc02d" } 中 (Medium)</td><td>4.0 – 6.9</td><td>需特定條件才能利用</td></tr>
+<tr><td>:material-circle:{ style="color: #388e3c" } 低 (Low)</td><td>0.1 – 3.9</td><td>利用條件嚴苛或影響有限</td></tr>
+</tbody>
+</table>
 
 ---
 
