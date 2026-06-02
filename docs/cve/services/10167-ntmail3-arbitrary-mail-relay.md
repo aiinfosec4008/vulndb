@@ -1,12 +1,12 @@
-# SSH Server CBC Mode Ciphers Enabled
+# NTMail3 Arbitrary Mail Relay
 
 | 欄位 | 內容 |
 |------|------|
-| 嚴重度 | <span style="color:#00ff88">●</span> Low |
-| CVSS v3 | **3.7** |
-| VPR | 2.2 |
-| EPSS | 307.00% |
-| Plugin ID | `70658` |
+| 嚴重度 | <span style="color:#ff6600">●</span> High |
+| CVSS v3 | **7.5** |
+| VPR | N/A |
+| EPSS | N/A |
+| Plugin ID | `10167` |
 
 ## CVE 編號
 
