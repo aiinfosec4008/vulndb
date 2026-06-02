@@ -4,7 +4,7 @@
 |------|------|
 | 嚴重度 | <span style="color:#ff6600">●</span> High |
 | CVSS v3 | **7.5** |
-| VPR | 6.1 |
+| VPR | 5.1 |
 | EPSS | 3775.00% |
 | Plugin ID | `42873` |
 
