@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-06-04 16:50`
+**資料更新時間：** `2026-06-04 23:08`
 
 ---
 
@@ -31,10 +31,11 @@
 
 ## 優先排程（VPR 7.0 – 8.9）
 
-共 **1** 個
+共 **2** 個
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
+| [Open WebUI < 0.9.5 Multiple Vulnerabilities](cve/web/314912-open-webui-095-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.5 | **7.4** | 4.0% | <span style="color:#ff6600">優先排程</span> |
 | [POP3 Service STLS Plaintext Command Injection](cve/web/52610-pop3-service-stls-plaintext-command-injection.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **7.3** | 3222.0% | <span style="color:#ff6600">優先排程</span> |
 
 ---
