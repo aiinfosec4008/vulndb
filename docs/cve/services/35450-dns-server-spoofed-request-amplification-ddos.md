@@ -1,12 +1,12 @@
-# MTA Open Mail Relaying Allowed
+# DNS Server Spoofed Request Amplification DDoS
 
 | 欄位 | 內容 |
 |------|------|
 | 嚴重度 | <span style="color:#ff6600">●</span> High |
 | CVSS v3 | **7.5** |
-| VPR | 5.9 |
-| EPSS | 7086.00% |
-| Plugin ID | `10262` |
+| VPR | 3.6 |
+| EPSS | 3071.00% |
+| Plugin ID | `35450` |
 
 ## CVE 編號
 

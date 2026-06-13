@@ -1,12 +1,12 @@
-# MTA Open Mail Relaying Allowed
+# Network Time Protocol (NTP) Mode 6 Scanner
 
 | 欄位 | 內容 |
 |------|------|
-| 嚴重度 | <span style="color:#ff6600">●</span> High |
-| CVSS v3 | **7.5** |
-| VPR | 5.9 |
-| EPSS | 7086.00% |
-| Plugin ID | `10262` |
+| 嚴重度 | <span style="color:#ffd700">●</span> Medium |
+| CVSS v3 | **5.8** |
+| VPR | N/A |
+| EPSS | N/A |
+| Plugin ID | `97861` |
 
 ## CVE 編號
 

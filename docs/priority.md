@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-06-12 23:19`
+**資料更新時間：** `2026-06-14 00:03`
 
 ---
 
@@ -51,7 +51,7 @@
 
 ## 一般排程（VPR 4.0 – 6.9）
 
-共 **39** 個
+共 **41** 個
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
@@ -71,7 +71,7 @@
 | [VMware Aria Operations 8.x < 8.18 HF 5 Privilege Escalation (VMSA-2025-0006)](cve/system/233816-vmware-aria-operations-8x-818-hf-5-privilege-escalation-vmsa-2025-0006.md) | <span style="color:#ff6600">●</span> High | 7.8 | **5.9** | 1.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware Aria Operations Multiple Vulnerabilities (VMSA-2024-0022)](cve/system/212134-vmware-aria-operations-multiple-vulnerabilities-vmsa-2024-0022.md) | <span style="color:#ff6600">●</span> High | 7.8 | **5.9** | 13.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware Aria Operations < 8.6 Hot Fix 11 / 8.10 Hot Fix 9 / 8.12 Hot Fix 5 Privilege Escalation (VMSA-2023-0020)](cve/system/182186-vmware-aria-operations-86-hot-fix-11-810-hot-fix-9-812-hot-fix-5-privilege-escal.md) | <span style="color:#ffd700">●</span> Medium | 6.7 | **5.9** | 5.0% | <span style="color:#ffd700">一般排程</span> |
-| [MTA Open Mail Relaying Allowed](cve/services/10262-mta-open-mail-relaying-allowed.md) | <span style="color:#ff6600">●</span> High | 7.5 | **5.9** | 118.0% | <span style="color:#ffd700">一般排程</span> |
+| [MTA Open Mail Relaying Allowed](cve/services/10262-mta-open-mail-relaying-allowed.md) | <span style="color:#ff6600">●</span> High | 7.5 | **5.9** | 7086.0% | <span style="color:#ffd700">一般排程</span> |
 | [JQuery 1.2 < 3.5.0 Multiple XSS](cve/system/136929-jquery-12-350-multiple-xss.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **5.7** | 3466.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vCenter Server 7.0.x < 7.0 U3w / 8.0.x < 8.0 U3g SMTP Header Injection (VMSA-2025-0016)](cve/services/266405-vmware-vcenter-server-70x-70-u3w-80x-80-u3g-smtp-header-injection-vmsa-2025-0016.md) | <span style="color:#ff6600">●</span> High | 8.5 | **5.1** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSL Medium Strength Cipher Suites Supported (SWEET32)](cve/web/42873-ssl-medium-strength-cipher-suites-supported-sweet32.md) | <span style="color:#ff6600">●</span> High | 7.5 | **5.1** | 4099.0% | <span style="color:#ffd700">一般排程</span> |
@@ -79,10 +79,12 @@
 | [nginx 1.3.0 < 1.28.2 / 1.29.x < 1.29.5 SSL Upstream Injection](cve/web/304671-nginx-130-1282-129x-1295-ssl-upstream-injection.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **4.4** | 1.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.0 / 8.0 Out-of-Bounds read (CVE-2024-37086)](cve/system/201125-vmware-esxi-70-80-out-of-bounds-read-cve-2024-37086.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **4.2** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSL Certificate Signed Using Weak Hashing Algorithm](cve/web/35291-ssl-certificate-signed-using-weak-hashing-algorithm.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **4.2** | 815.0% | <span style="color:#ffd700">一般排程</span> |
+| [DNS Server Recursive Query Cache Poisoning Weakness](cve/services/10539-dns-server-recursive-query-cache-poisoning-weakness.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **4.2** | 132.0% | <span style="color:#ffd700">一般排程</span> |
 | [HTTP TRACE / TRACK Methods Allowed](cve/web/11213-http-trace-track-methods-allowed.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **4.0** | 7987.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vCenter Server 7.0.x < 7.0 U3v / 8.0.x < 8.0 U3g DoS (VMSA-2025-0014)](cve/system/245963-vmware-vcenter-server-70x-70-u3v-80x-80-u3g-dos-vmsa-2025-0014.md) | <span style="color:#ffd700">●</span> Medium | 4.4 | **3.6** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware Aria Operations Information Disclosure (VMSA-2025-0003)](cve/system/215067-vmware-aria-operations-information-disclosure-vmsa-2025-0003.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **3.6** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vRealize Operations 8.x < 8.10 Arbitrary File Read (VMSA-2022-0026)](cve/system/170605-vmware-vrealize-operations-8x-810-arbitrary-file-read-vmsa-2022-0026.md) | <span style="color:#ffd700">●</span> Medium | 4.9 | **3.6** | 17.0% | <span style="color:#ffd700">一般排程</span> |
+| [DNS Server Spoofed Request Amplification DDoS](cve/services/35450-dns-server-spoofed-request-amplification-ddos.md) | <span style="color:#ff6600">●</span> High | 7.5 | **3.6** | 3071.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSL Anonymous Cipher Suites Supported](cve/web/31705-ssl-anonymous-cipher-suites-supported.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **3.6** | 270.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 10.1 / 10.1p1 Multiple Vulnerabilities](cve/services/269984-openssh-101-101p1-multiple-vulnerabilities.md) | <span style="color:#00ff88">●</span> Low | 3.6 | **3.3** | 1.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vRealize Log Insight 8.x < 8.8.2 XSS (VMSA-2022-0019)](cve/system/163099-vmware-vrealize-log-insight-8x-882-xss-vmsa-2022-0019.md) | <span style="color:#ffd700">●</span> Medium | 5.4 | **3.0** | 89.0% | <span style="color:#ffd700">一般排程</span> |
