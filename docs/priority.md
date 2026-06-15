@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-06-15 00:01`
+**資料更新時間：** `2026-06-16 03:21`
 
 ---
 
@@ -45,7 +45,7 @@
 | [VMware vCenter Server 7.x < 7.0 U3t / 8.x < 8.0.3 U3d Multiple Vulnerabilities (VMSA-2024-0019)](cve/system/207464-vmware-vcenter-server-7x-70-u3t-8x-803-u3d-multiple-vulnerabilities-vmsa-2024-00.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **7.4** | 7787.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware Aria Operations for Logs < 8.18.3 Multiple Vulnerabilities (VMSA-2025-0003)](cve/system/215005-vmware-aria-operations-for-logs-8183-multiple-vulnerabilities-vmsa-2025-0003.md) | <span style="color:#ff003c">●</span> Critical | 9.0 | **7.3** | 10.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2024-0006)](cve/system/191711-vmware-esxi-70-80-multiple-vulnerabilities-vmsa-2024-0006.md) | <span style="color:#ff6600">●</span> High | 8.2 | **7.3** | 23.0% | <span style="color:#ff6600">優先排程</span> |
-| [POP3 Service STLS Plaintext Command Injection](cve/web/52610-pop3-service-stls-plaintext-command-injection.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **7.3** | 3222.0% | <span style="color:#ff6600">優先排程</span> |
+| [POP3 Service STLS Plaintext Command Injection](cve/web/52610-pop3-service-stls-plaintext-command-injection.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **7.3** | 3777.0% | <span style="color:#ff6600">優先排程</span> |
 
 ---
 
