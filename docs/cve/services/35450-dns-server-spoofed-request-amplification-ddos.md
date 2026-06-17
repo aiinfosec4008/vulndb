@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ff6600">●</span> High |
 | CVSS v3 | **7.5** |
 | VPR | 3.6 |
-| EPSS | 3071.00% |
+| EPSS | 5726.00% |
 | Plugin ID | `35450` |
 
 ## CVE 編號

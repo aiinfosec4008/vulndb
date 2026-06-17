@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ff6600">●</span> High |
 | CVSS v3 | **N/A** |
 | VPR | 6.0 |
-| EPSS | 8959.00% |
+| EPSS | 2717.00% |
 | Plugin ID | `41028` |
 
 ## CVE 編號
