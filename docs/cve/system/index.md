@@ -1,10 +1,11 @@
 # 系統類弱點清單
 
-共 **31** 個弱點，依嚴重度排序。
+共 **32** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
 | [Canonical Ubuntu Linux SEoL (18.04.x)](201456-canonical-ubuntu-linux-seol-1804x.md) | <span style="color:#ff003c">●</span> Critical | 10.0 |
+| [Oracle PeopleSoft Unauthenticated Java Deserialization SSRF / RCE (CVE-2026-35273)](321385-oracle-peoplesoft-unauthenticated-java-deserialization-ssrf-rce-cve-2026-35273.md) | <span style="color:#ff003c">●</span> Critical | 10.0 |
 | [VMware vRealize Log Insight 8.x < 8.10.2 Mutliple Vulnerabilities (VMSA-2023-0001)](170661-vmware-vrealize-log-insight-8x-8102-mutliple-vulnerabilities-vmsa-2023-0001.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
 | [VMware vCenter Server 7.0 < 7.0U3r / 8.0 < 8.0U2d Multiple Vulnerabilities (VMSA-2024-0012)](200746-vmware-vcenter-server-70-70u3r-80-80u2d-multiple-vulnerabilities-vmsa-2024-0012.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
 | [VMware vCenter Server 7.x < 7.0 U3t / 8.x < 8.0.3 U3d Multiple Vulnerabilities (VMSA-2024-0019)](207464-vmware-vcenter-server-7x-70-u3t-8x-803-u3d-multiple-vulnerabilities-vmsa-2024-00.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
