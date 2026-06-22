@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-06-22 00:15`
+**資料更新時間：** `2026-06-23 06:34`
 
 ---
 
@@ -64,7 +64,7 @@
 | [OpenSSH < 8.0](cve/services/159491-openssh-80.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **6.7** | 5757.0% | <span style="color:#ffd700">一般排程</span> |
 | [ESXi 6.5 / 6.7 / 7.0 Multiple Vulnerabilities (VMSA-2022-0030)](cve/system/168828-esxi-65-67-70-multiple-vulnerabilities-vmsa-2022-0030.md) | <span style="color:#ff6600">●</span> High | 8.8 | **6.5** | 36.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.92 < 9.0.117 multiple vulnerabilities](cve/web/307003-apache-tomcat-9092-90117-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 7.5 | **6.1** | 4.0% | <span style="color:#ffd700">一般排程</span> |
-| [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **6.1** | 9331.0% | <span style="color:#ffd700">一般排程</span> |
+| [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **6.1** | 9407.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 9.6 Multiple Vulnerabilities](cve/services/187201-openssh-96-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **6.1** | 5300.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.113 < 9.0.116 multiple vulnerabilities](cve/web/307004-apache-tomcat-90113-90116-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.1 | **6.0** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [SNMP Agent Default Community Name (public)](cve/services/41028-snmp-agent-default-community-name-public.md) | <span style="color:#ff6600">●</span> High | 0.0 | **6.0** | 2717.0% | <span style="color:#ffd700">一般排程</span> |
@@ -72,7 +72,7 @@
 | [VMware Aria Operations Multiple Vulnerabilities (VMSA-2024-0022)](cve/system/212134-vmware-aria-operations-multiple-vulnerabilities-vmsa-2024-0022.md) | <span style="color:#ff6600">●</span> High | 7.8 | **5.9** | 13.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware Aria Operations < 8.6 Hot Fix 11 / 8.10 Hot Fix 9 / 8.12 Hot Fix 5 Privilege Escalation (VMSA-2023-0020)](cve/system/182186-vmware-aria-operations-86-hot-fix-11-810-hot-fix-9-812-hot-fix-5-privilege-escal.md) | <span style="color:#ffd700">●</span> Medium | 6.7 | **5.9** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [MTA Open Mail Relaying Allowed](cve/services/10262-mta-open-mail-relaying-allowed.md) | <span style="color:#ff6600">●</span> High | 7.5 | **5.9** | 1224.0% | <span style="color:#ffd700">一般排程</span> |
-| [JQuery 1.2 < 3.5.0 Multiple XSS](cve/system/136929-jquery-12-350-multiple-xss.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **5.7** | 3466.0% | <span style="color:#ffd700">一般排程</span> |
+| [JQuery 1.2 < 3.5.0 Multiple XSS](cve/system/136929-jquery-12-350-multiple-xss.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **5.7** | 9902.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vCenter Server 7.0.x < 7.0 U3w / 8.0.x < 8.0 U3g SMTP Header Injection (VMSA-2025-0016)](cve/services/266405-vmware-vcenter-server-70x-70-u3w-80x-80-u3g-smtp-header-injection-vmsa-2025-0016.md) | <span style="color:#ff6600">●</span> High | 8.5 | **5.1** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSL Medium Strength Cipher Suites Supported (SWEET32)](cve/web/42873-ssl-medium-strength-cipher-suites-supported-sweet32.md) | <span style="color:#ff6600">●</span> High | 7.5 | **5.1** | 9571.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 7.8](cve/services/159490-openssh-78.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **4.9** | 9036.0% | <span style="color:#ffd700">一般排程</span> |
