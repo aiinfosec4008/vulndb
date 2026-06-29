@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-06-28 01:19`
+**資料更新時間：** `2026-06-29 16:57`
 
 ---
 
@@ -64,7 +64,7 @@
 | [OpenSSH < 8.0](cve/services/159491-openssh-80.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **6.7** | 5757.0% | <span style="color:#ffd700">一般排程</span> |
 | [ESXi 6.5 / 6.7 / 7.0 Multiple Vulnerabilities (VMSA-2022-0030)](cve/system/168828-esxi-65-67-70-multiple-vulnerabilities-vmsa-2022-0030.md) | <span style="color:#ff6600">●</span> High | 8.8 | **6.5** | 36.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.92 < 9.0.117 multiple vulnerabilities](cve/web/307003-apache-tomcat-9092-90117-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 7.5 | **6.1** | 4.0% | <span style="color:#ffd700">一般排程</span> |
-| [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **6.1** | 9407.0% | <span style="color:#ffd700">一般排程</span> |
+| [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **6.1** | 9331.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 9.6 Multiple Vulnerabilities](cve/services/187201-openssh-96-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **6.1** | 5300.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.113 < 9.0.116 multiple vulnerabilities](cve/web/307004-apache-tomcat-90113-90116-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.1 | **6.0** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [SNMP Agent Default Community Name (public)](cve/services/41028-snmp-agent-default-community-name-public.md) | <span style="color:#ff6600">●</span> High | 0.0 | **6.0** | 2717.0% | <span style="color:#ffd700">一般排程</span> |
