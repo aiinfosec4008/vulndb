@@ -1,6 +1,6 @@
 # Web 類弱點清單
 
-共 **22** 個弱點，依嚴重度排序。
+共 **23** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -14,6 +14,7 @@
 | [TLS Version 1.0 Protocol Detection](104743-tls-version-10-protocol-detection.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
 | [HSTS Missing From HTTPS Server (RFC 6797)](142960-hsts-missing-from-https-server-rfc-6797.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
 | [TLS Version 1.1 Deprecated Protocol](157288-tls-version-11-deprecated-protocol.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
+| [Apache Tomcat 9.0.0.M1 < 9.0.119 multiple vulnerabilities](323714-apache-tomcat-900m1-90119-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.1 |
 | [SSL Anonymous Cipher Suites Supported](31705-ssl-anonymous-cipher-suites-supported.md) | <span style="color:#ffd700">●</span> Medium | 5.9 |
 | [SSL RC4 Cipher Suites Supported (Bar Mitzvah)](65821-ssl-rc4-cipher-suites-supported-bar-mitzvah.md) | <span style="color:#ffd700">●</span> Medium | 5.9 |
 | [nginx 1.3.0 < 1.28.2 / 1.29.x < 1.29.5 SSL Upstream Injection](304671-nginx-130-1282-129x-1295-ssl-upstream-injection.md) | <span style="color:#ffd700">●</span> Medium | 5.9 |
