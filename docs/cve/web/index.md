@@ -6,6 +6,7 @@
 |---------|--------|---------|
 | [Apache Tomcat 9.0.0.M1 < 9.0.118 multiple vulnerabilities](314334-apache-tomcat-900m1-90118-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
 | [Apache Tomcat 9.0.113 < 9.0.116 multiple vulnerabilities](307004-apache-tomcat-90113-90116-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.1 |
+| [Apache Tomcat 9.0.0.M1 < 9.0.119 multiple vulnerabilities](323714-apache-tomcat-900m1-90119-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.1 |
 | [Open WebUI < 0.9.5 Multiple Vulnerabilities](314912-open-webui-095-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.5 |
 | [SSL Medium Strength Cipher Suites Supported (SWEET32)](42873-ssl-medium-strength-cipher-suites-supported-sweet32.md) | <span style="color:#ff6600">●</span> High | 7.5 |
 | [Apache Tomcat 9.0.92 < 9.0.117 multiple vulnerabilities](307003-apache-tomcat-9092-90117-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 7.5 |
@@ -14,7 +15,6 @@
 | [TLS Version 1.0 Protocol Detection](104743-tls-version-10-protocol-detection.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
 | [HSTS Missing From HTTPS Server (RFC 6797)](142960-hsts-missing-from-https-server-rfc-6797.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
 | [TLS Version 1.1 Deprecated Protocol](157288-tls-version-11-deprecated-protocol.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
-| [Apache Tomcat 9.0.0.M1 < 9.0.119 multiple vulnerabilities](323714-apache-tomcat-900m1-90119-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.1 |
 | [SSL Anonymous Cipher Suites Supported](31705-ssl-anonymous-cipher-suites-supported.md) | <span style="color:#ffd700">●</span> Medium | 5.9 |
 | [SSL RC4 Cipher Suites Supported (Bar Mitzvah)](65821-ssl-rc4-cipher-suites-supported-bar-mitzvah.md) | <span style="color:#ffd700">●</span> Medium | 5.9 |
 | [nginx 1.3.0 < 1.28.2 / 1.29.x < 1.29.5 SSL Upstream Injection](304671-nginx-130-1282-129x-1295-ssl-upstream-injection.md) | <span style="color:#ffd700">●</span> Medium | 5.9 |
