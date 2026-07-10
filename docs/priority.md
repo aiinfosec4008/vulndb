@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-07-10 01:04`
+**資料更新時間：** `2026-07-11 02:34`
 
 ---
 
@@ -31,7 +31,7 @@
 
 ## 優先排程（VPR 7.0 – 8.9）
 
-共 **10** 個
+共 **11** 個
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
@@ -41,6 +41,7 @@
 | [VMware ESXi 7.x < 7.0 Update 3w / 8.x < 8.0 Update 2e / 8.0 Update 3 < 8.0 Update 3f (VMSA-2025-0013)](cve/system/242168-vmware-esxi-7x-70-update-3w-8x-80-update-2e-80-update-3-80-update-3f-vmsa-2025-0.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **8.1** | 2.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2025-0004)](cve/system/237304-vmware-esxi-70-80-multiple-vulnerabilities-vmsa-2025-0004.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **8.1** | 4680.0% | <span style="color:#ff6600">優先排程</span> |
 | [SSL RC4 Cipher Suites Supported (Bar Mitzvah)](cve/web/65821-ssl-rc4-cipher-suites-supported-bar-mitzvah.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **8.1** | 9316.0% | <span style="color:#ff6600">優先排程</span> |
+| [OpenSSH < 10.3 Multiple Vulnerabilities](cve/services/306743-openssh-103-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.1 | **7.6** | 4.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware Aria Operations 8.x < 8.18.5 Multiple Vulnerabilities (VMSA-2025-0015)](cve/system/266419-vmware-aria-operations-8x-8185-multiple-vulnerabilities-vmsa-2025-0015.md) | <span style="color:#ff6600">●</span> High | 7.8 | **7.4** | 3.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware vCenter Server 7.x < 7.0 U3t / 8.x < 8.0.3 U3d Multiple Vulnerabilities (VMSA-2024-0019)](cve/system/207464-vmware-vcenter-server-7x-70-u3t-8x-803-u3d-multiple-vulnerabilities-vmsa-2024-00.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **7.4** | 7787.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware Aria Operations for Logs < 8.18.3 Multiple Vulnerabilities (VMSA-2025-0003)](cve/system/215005-vmware-aria-operations-for-logs-8183-multiple-vulnerabilities-vmsa-2025-0003.md) | <span style="color:#ff003c">●</span> Critical | 9.0 | **7.3** | 10.0% | <span style="color:#ff6600">優先排程</span> |
@@ -50,11 +51,10 @@
 
 ## 一般排程（VPR 4.0 – 6.9）
 
-共 **43** 個
+共 **42** 個
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
-| [OpenSSH < 10.3 Multiple Vulnerabilities](cve/services/306743-openssh-103-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.1 | **6.9** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [Open WebUI < 0.9.5 Multiple Vulnerabilities](cve/web/314912-open-webui-095-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.5 | **6.7** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.0.M1 < 9.0.118 multiple vulnerabilities](cve/web/314334-apache-tomcat-900m1-90118-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **6.7** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vCenter Server 7.0.x < 7.0 U3v / 8.0.x < 8.0 U3e Authenticated Command Execution (CVE-2025-41225) (VMSA-2025-0010)](cve/system/237247-vmware-vcenter-server-70x-70-u3v-80x-80-u3e-authenticated-command-execution-cve-.md) | <span style="color:#ff6600">●</span> High | 8.8 | **6.7** | 2.0% | <span style="color:#ffd700">一般排程</span> |
