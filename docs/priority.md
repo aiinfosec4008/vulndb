@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-07-12 00:48`
+**資料更新時間：** `2026-07-14 01:19`
 
 ---
 
@@ -51,7 +51,7 @@
 
 ## 一般排程（VPR 4.0 – 6.9）
 
-共 **42** 個
+共 **44** 個
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
@@ -74,7 +74,9 @@
 | [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **5.0** | 9331.0% | <span style="color:#ffd700">一般排程</span> |
 | [POP3 Service STLS Plaintext Command Injection](cve/web/52610-pop3-service-stls-plaintext-command-injection.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **5.0** | 1633.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 7.8](cve/services/159490-openssh-78.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **4.9** | 9036.0% | <span style="color:#ffd700">一般排程</span> |
+| [OpenSSH < 10.4 Multiple Vulnerabilities](cve/services/326244-openssh-104-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 7.7 | **4.5** | 34.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.0.M1 < 9.0.119 multiple vulnerabilities](cve/web/323714-apache-tomcat-900m1-90119-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **4.3** | 19.0% | <span style="color:#ffd700">一般排程</span> |
+| [MTA Open Mail Relaying Allowed (thorough test)](cve/services/11852-mta-open-mail-relaying-allowed-thorough-test.md) | <span style="color:#ff6600">●</span> High | 7.5 | **4.3** | 1224.0% | <span style="color:#ffd700">一般排程</span> |
 | [HTTP TRACE / TRACK Methods Allowed](cve/web/11213-http-trace-track-methods-allowed.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **4.3** | 2506.0% | <span style="color:#ffd700">一般排程</span> |
 | [MTA Open Mail Relaying Allowed](cve/services/10262-mta-open-mail-relaying-allowed.md) | <span style="color:#ff6600">●</span> High | 7.5 | **4.3** | 1224.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.0 / 8.0 Out-of-Bounds read (CVE-2024-37086)](cve/system/201125-vmware-esxi-70-80-out-of-bounds-read-cve-2024-37086.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **4.2** | 5.0% | <span style="color:#ffd700">一般排程</span> |
