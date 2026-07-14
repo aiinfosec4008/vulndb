@@ -4,10 +4,10 @@
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
+| [OpenSSH < 10.4 Multiple Vulnerabilities](326244-openssh-104-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.4 |
 | [VMware vCenter Server 7.0.x < 7.0 U3w / 8.0.x < 8.0 U3g SMTP Header Injection (VMSA-2025-0016)](266405-vmware-vcenter-server-70x-70-u3w-80x-80-u3g-smtp-header-injection-vmsa-2025-0016.md) | <span style="color:#ff6600">●</span> High | 8.5 |
 | [OpenSSH < 9.8 RCE](201194-openssh-98-rce.md) | <span style="color:#ff6600">●</span> High | 8.1 |
 | [OpenSSH < 10.3 Multiple Vulnerabilities](306743-openssh-103-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.1 |
-| [OpenSSH < 10.4 Multiple Vulnerabilities](326244-openssh-104-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 7.7 |
 | [NTMail3 Arbitrary Mail Relay](10167-ntmail3-arbitrary-mail-relay.md) | <span style="color:#ff6600">●</span> High | 7.5 |
 | [MTA Open Mail Relaying Allowed](10262-mta-open-mail-relaying-allowed.md) | <span style="color:#ff6600">●</span> High | 7.5 |
 | [MTA Open Mail Relaying Allowed (thorough test)](11852-mta-open-mail-relaying-allowed-thorough-test.md) | <span style="color:#ff6600">●</span> High | 7.5 |
