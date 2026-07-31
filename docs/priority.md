@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-07-30 07:47`
+**資料更新時間：** `2026-07-31 10:07`
 
 ---
 
@@ -51,7 +51,7 @@
 
 ## 一般排程（VPR 4.0 – 6.9）
 
-共 **44** 個
+共 **45** 個
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
@@ -87,6 +87,7 @@
 | [VMware vRealize Operations 8.x < 8.10 Arbitrary File Read (VMSA-2022-0026)](cve/system/170605-vmware-vrealize-operations-8x-810-arbitrary-file-read-vmsa-2022-0026.md) | <span style="color:#ffd700">●</span> Medium | 4.9 | **3.6** | 17.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSH Server CBC Mode Ciphers Enabled](cve/web/70658-ssh-server-cbc-mode-ciphers-enabled.md) | <span style="color:#00ff88">●</span> Low | 3.7 | **3.2** | 1540.0% | <span style="color:#ffd700">一般排程</span> |
 | [ICMP Timestamp Request Remote Date Disclosure](cve/system/10114-icmp-timestamp-request-remote-date-disclosure.md) | <span style="color:#00ff88">●</span> Low | 0.0 | **3.2** | 3159.0% | <span style="color:#ffd700">一般排程</span> |
+| [Apache Tomcat 9.0.89 < 9.0.121](cve/web/330442-apache-tomcat-9089-90121.md) | <span style="color:#ff6600">●</span> High | 7.5 | **3.0** | N/A | <span style="color:#ffd700">一般排程</span> |
 | [nginx 1.3.0 < 1.28.2 / 1.29.x < 1.29.5 SSL Upstream Injection](cve/web/304671-nginx-130-1282-129x-1295-ssl-upstream-injection.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **3.0** | 1.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vRealize Log Insight 8.x < 8.8.2 XSS (VMSA-2022-0019)](cve/system/163099-vmware-vrealize-log-insight-8x-882-xss-vmsa-2022-0019.md) | <span style="color:#ffd700">●</span> Medium | 5.4 | **3.0** | 89.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vRealize Log Insight 4.x < 8.1.0 XSS Vulnerability (VMSA-2020-0007)](cve/system/135923-vmware-vrealize-log-insight-4x-810-xss-vulnerability-vmsa-2020-0007.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **3.0** | 50.0% | <span style="color:#ffd700">一般排程</span> |

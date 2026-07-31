@@ -1,6 +1,6 @@
 # Web 類弱點清單
 
-共 **23** 個弱點，依嚴重度排序。
+共 **24** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -10,6 +10,7 @@
 | [Open WebUI < 0.9.5 Multiple Vulnerabilities](314912-open-webui-095-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.5 |
 | [SSL Medium Strength Cipher Suites Supported (SWEET32)](42873-ssl-medium-strength-cipher-suites-supported-sweet32.md) | <span style="color:#ff6600">●</span> High | 7.5 |
 | [Apache Tomcat 9.0.92 < 9.0.117 multiple vulnerabilities](307003-apache-tomcat-9092-90117-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 7.5 |
+| [Apache Tomcat 9.0.89 < 9.0.121](330442-apache-tomcat-9089-90121.md) | <span style="color:#ff6600">●</span> High | 7.5 |
 | [SSL Certificate Cannot Be Trusted](51192-ssl-certificate-cannot-be-trusted.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
 | [SSL Self-Signed Certificate](57582-ssl-self-signed-certificate.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
 | [TLS Version 1.0 Protocol Detection](104743-tls-version-10-protocol-detection.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
