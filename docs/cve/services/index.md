@@ -1,6 +1,6 @@
 # 服務類弱點清單
 
-共 **25** 個弱點，依嚴重度排序。
+共 **26** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -18,6 +18,7 @@
 | [OpenSSH < 9.6 Multiple Vulnerabilities](187201-openssh-96-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.5 |
 | [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 |
 | [Network Time Protocol (NTP) Mode 6 Scanner](97861-network-time-protocol-ntp-mode-6-scanner.md) | <span style="color:#ffd700">●</span> Medium | 5.8 |
+| [LDAP Server NULL Bind Connection Information Disclosure](10723-ldap-server-null-bind-connection-information-disclosure.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [DNS Server Cache Snooping Remote Information Disclosure](12217-dns-server-cache-snooping-remote-information-disclosure.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [OpenSSH < 7.6](103781-openssh-76.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [OpenSSH < 7.8](159490-openssh-78.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
