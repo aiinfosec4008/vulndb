@@ -1,6 +1,6 @@
 # 系統類弱點清單
 
-共 **32** 個弱點，依嚴重度排序。
+共 **33** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -28,6 +28,7 @@
 | [VMware vRealize Log Insight 4.x < 8.1.0 XSS Vulnerability (VMSA-2020-0007)](135923-vmware-vrealize-log-insight-4x-810-xss-vulnerability-vmsa-2020-0007.md) | <span style="color:#ffd700">●</span> Medium | 6.1 |
 | [JQuery 1.2 < 3.5.0 Multiple XSS](136929-jquery-12-350-multiple-xss.md) | <span style="color:#ffd700">●</span> Medium | 6.1 |
 | [VMware vRealize Log Insight 8.x < 8.8.2 XSS (VMSA-2022-0019)](163099-vmware-vrealize-log-insight-8x-882-xss-vmsa-2022-0019.md) | <span style="color:#ffd700">●</span> Medium | 5.4 |
+| [VMware Cloud Foundation Operations 8.x < 8.18.7 Multiple Vulnerabilities (VMSA-2026-0004)](320778-vmware-cloud-foundation-operations-8x-8187-multiple-vulnerabilities-vmsa-2026-00.md) | <span style="color:#ffd700">●</span> Medium | 5.4 |
 | [SMB Signing not required](57608-smb-signing-not-required.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [VMware vCenter Server 7.0 < 7.0U3q / 8.0 < 8.0U3 DoS (CVE-2024-37087)](201124-vmware-vcenter-server-70-70u3q-80-80u3-dos-cve-2024-37087.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [VMware vRealize Operations 8.x < 8.10 Arbitrary File Read (VMSA-2022-0026)](170605-vmware-vrealize-operations-8x-810-arbitrary-file-read-vmsa-2022-0026.md) | <span style="color:#ffd700">●</span> Medium | 4.9 |

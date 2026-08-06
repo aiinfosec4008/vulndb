@@ -1,12 +1,12 @@
-# OpenSSH < 9.6 Multiple Vulnerabilities
+# VMware Cloud Foundation Operations 8.x < 8.18.7 Multiple Vulnerabilities (VMSA-2026-0004)
 
 | 欄位 | 內容 |
 |------|------|
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
-| CVSS v3 | **6.5** |
-| VPR | 5.0 |
-| EPSS | 9331.00% |
-| Plugin ID | `187201` |
+| CVSS v3 | **5.4** |
+| VPR | 4.9 |
+| EPSS | 7.00% |
+| Plugin ID | `320778` |
 
 ## CVE 編號
 

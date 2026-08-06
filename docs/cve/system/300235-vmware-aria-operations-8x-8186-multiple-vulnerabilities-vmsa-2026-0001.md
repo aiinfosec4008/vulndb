@@ -4,8 +4,8 @@
 |------|------|
 | 嚴重度 | <span style="color:#ff003c">●</span> Critical |
 | CVSS v3 | **9.0** |
-| VPR | 8.4 |
-| EPSS | 1076.00% |
+| VPR | 7.9 |
+| EPSS | 1742.00% |
 | Plugin ID | `300235` |
 
 ## CVE 編號

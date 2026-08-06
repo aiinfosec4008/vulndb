@@ -4,7 +4,7 @@
 |------|------|
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **5.4** |
-| VPR | 3.0 |
+| VPR | 2.3 |
 | EPSS | 89.00% |
 | Plugin ID | `163099` |
 

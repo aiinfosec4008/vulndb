@@ -4,8 +4,8 @@
 |------|------|
 | 嚴重度 | <span style="color:#ff003c">●</span> Critical |
 | CVSS v3 | **9.8** |
-| VPR | 8.4 |
-| EPSS | 9018.00% |
+| VPR | 7.6 |
+| EPSS | 8708.00% |
 | Plugin ID | `170661` |
 
 ## CVE 編號
