@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-08-07 05:33`
+**資料更新時間：** `2026-08-08 07:32`
 
 ---
 
@@ -25,8 +25,8 @@
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
-| [VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2025-0004)](cve/system/237304-vmware-esxi-70-80-multiple-vulnerabilities-vmsa-2025-0004.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **9.3** | 820.0% | <span style="color:#ff003c">立即處理</span> |
 | [VMware Aria Operations 8.x < 8.18.5 Multiple Vulnerabilities (VMSA-2025-0015)](cve/system/266419-vmware-aria-operations-8x-8185-multiple-vulnerabilities-vmsa-2025-0015.md) | <span style="color:#ff6600">●</span> High | 7.8 | **9.2** | 3.0% | <span style="color:#ff003c">立即處理</span> |
+| [VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2025-0004)](cve/system/237304-vmware-esxi-70-80-multiple-vulnerabilities-vmsa-2025-0004.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **9.0** | 820.0% | <span style="color:#ff003c">立即處理</span> |
 
 ---
 
