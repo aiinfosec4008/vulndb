@@ -1,6 +1,6 @@
 # 服務類弱點清單
 
-共 **26** 個弱點，依嚴重度排序。
+共 **27** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -22,6 +22,7 @@
 | [DNS Server Cache Snooping Remote Information Disclosure](12217-dns-server-cache-snooping-remote-information-disclosure.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [OpenSSH < 7.6](103781-openssh-76.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [OpenSSH < 7.8](159490-openssh-78.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
+| [OpenSSH < 10.5 Multiple Vulnerabilities](335161-openssh-105-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 4.8 |
 | [DNS Server Recursive Query Cache Poisoning Weakness](10539-dns-server-recursive-query-cache-poisoning-weakness.md) | <span style="color:#ffd700">●</span> Medium | N/A |
 | [mDNS Detection (Remote Network)](12218-mdns-detection-remote-network.md) | <span style="color:#ffd700">●</span> Medium | N/A |
 | [SMTP Server Non-standard Port Detection](18391-smtp-server-non-standard-port-detection.md) | <span style="color:#ffd700">●</span> Medium | N/A |
