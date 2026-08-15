@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-08-15 06:51`
+**資料更新時間：** `2026-08-16 03:23`
 
 ---
 
@@ -51,7 +51,7 @@
 
 ## 一般排程（VPR 4.0 – 6.9）
 
-共 **46** 個
+共 **47** 個
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
@@ -98,6 +98,7 @@
 | [SNMP Agent Default Community Name (public)](cve/services/41028-snmp-agent-default-community-name-public.md) | <span style="color:#ff6600">●</span> High | 0.0 | **2.8** | 2717.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vRealize Log Insight 8.x < 8.8.2 XSS (VMSA-2022-0019)](cve/system/163099-vmware-vrealize-log-insight-8x-882-xss-vmsa-2022-0019.md) | <span style="color:#ffd700">●</span> Medium | 5.4 | **2.3** | 89.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vRealize Log Insight 4.x < 8.1.0 XSS Vulnerability (VMSA-2020-0007)](cve/system/135923-vmware-vrealize-log-insight-4x-810-xss-vulnerability-vmsa-2020-0007.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **2.3** | 50.0% | <span style="color:#ffd700">一般排程</span> |
+| [OpenSSH < 10.5 Multiple Vulnerabilities](cve/services/335161-openssh-105-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 4.8 | **2.1** | 16.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 10.0 DisableForwarding](cve/services/234554-openssh-100-disableforwarding.md) | <span style="color:#00ff88">●</span> Low | 3.8 | **1.2** | 1.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vCenter Server 7.0 < 7.0U3q / 8.0 < 8.0U3 DoS (CVE-2024-37087)](cve/system/201124-vmware-vcenter-server-70-70u3q-80-80u3-dos-cve-2024-37087.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **1.2** | 15.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 7.6](cve/services/103781-openssh-76.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **1.2** | 284.0% | <span style="color:#ffd700">一般排程</span> |
