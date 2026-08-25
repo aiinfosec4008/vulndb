@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-08-22 15:26`
+**資料更新時間：** `2026-08-25 22:47`
 
 ---
 
@@ -91,7 +91,7 @@
 | [VMware vCenter Server 7.0.x < 7.0 U3v / 8.0.x < 8.0 U3g DoS (VMSA-2025-0014)](cve/system/245963-vmware-vcenter-server-70x-70-u3v-80x-80-u3g-dos-vmsa-2025-0014.md) | <span style="color:#ffd700">●</span> Medium | 4.4 | **3.0** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware Aria Operations Information Disclosure (VMSA-2025-0003)](cve/system/215067-vmware-aria-operations-information-disclosure-vmsa-2025-0003.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **3.0** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vRealize Operations 8.x < 8.10 Arbitrary File Read (VMSA-2022-0026)](cve/system/170605-vmware-vrealize-operations-8x-810-arbitrary-file-read-vmsa-2022-0026.md) | <span style="color:#ffd700">●</span> Medium | 4.9 | **3.0** | 17.0% | <span style="color:#ffd700">一般排程</span> |
-| [DNS Server Spoofed Request Amplification DDoS](cve/services/35450-dns-server-spoofed-request-amplification-ddos.md) | <span style="color:#ff6600">●</span> High | 7.5 | **3.0** | 5726.0% | <span style="color:#ffd700">一般排程</span> |
+| [DNS Server Spoofed Request Amplification DDoS](cve/services/35450-dns-server-spoofed-request-amplification-ddos.md) | <span style="color:#ff6600">●</span> High | 7.5 | **3.0** | 5803.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSL Anonymous Cipher Suites Supported](cve/web/31705-ssl-anonymous-cipher-suites-supported.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **3.0** | 1825.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apple Mac OS X Find-By-Content .DS_Store Web Directory Listing](cve/web/10756-apple-mac-os-x-find-by-content-ds_store-web-directory-listing.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **3.0** | 53.0% | <span style="color:#ffd700">一般排程</span> |
 | [DNS Server Recursive Query Cache Poisoning Weakness](cve/services/10539-dns-server-recursive-query-cache-poisoning-weakness.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **3.0** | 132.0% | <span style="color:#ffd700">一般排程</span> |
