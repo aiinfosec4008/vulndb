@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-08-25 22:47`
+**資料更新時間：** `2026-08-27 05:31`
 
 ---
 
@@ -85,7 +85,7 @@
 | [VMware vCenter Server 7.0.x < 7.0 U3w / 8.0.x < 8.0 U3g SMTP Header Injection (VMSA-2025-0016)](cve/services/266405-vmware-vcenter-server-70x-70-u3w-80x-80-u3g-smtp-header-injection-vmsa-2025-0016.md) | <span style="color:#ff6600">●</span> High | 8.5 | **3.9** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.0 / 8.0 Multiple Vulenerabilities (VMSA-2025-0010)](cve/system/237246-vmware-esxi-70-80-multiple-vulenerabilities-vmsa-2025-0010.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **3.3** | 3.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSH Server CBC Mode Ciphers Enabled](cve/web/70658-ssh-server-cbc-mode-ciphers-enabled.md) | <span style="color:#00ff88">●</span> Low | 3.7 | **3.2** | 1540.0% | <span style="color:#ffd700">一般排程</span> |
-| [ICMP Timestamp Request Remote Date Disclosure](cve/system/10114-icmp-timestamp-request-remote-date-disclosure.md) | <span style="color:#00ff88">●</span> Low | 0.0 | **3.2** | 3159.0% | <span style="color:#ffd700">一般排程</span> |
+| [ICMP Timestamp Request Remote Date Disclosure](cve/system/10114-icmp-timestamp-request-remote-date-disclosure.md) | <span style="color:#00ff88">●</span> Low | 0.0 | **3.2** | 3215.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.89 < 9.0.121](cve/web/330442-apache-tomcat-9089-90121.md) | <span style="color:#ff6600">●</span> High | 7.5 | **3.0** | 31.0% | <span style="color:#ffd700">一般排程</span> |
 | [nginx 1.3.0 < 1.28.2 / 1.29.x < 1.29.5 SSL Upstream Injection](cve/web/304671-nginx-130-1282-129x-1295-ssl-upstream-injection.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **3.0** | 1.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vCenter Server 7.0.x < 7.0 U3v / 8.0.x < 8.0 U3g DoS (VMSA-2025-0014)](cve/system/245963-vmware-vcenter-server-70x-70-u3v-80x-80-u3g-dos-vmsa-2025-0014.md) | <span style="color:#ffd700">●</span> Medium | 4.4 | **3.0** | 4.0% | <span style="color:#ffd700">一般排程</span> |
