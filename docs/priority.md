@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-09-16 03:53`
+**資料更新時間：** `2026-09-17 08:38`
 
 ---
 
@@ -64,7 +64,7 @@
 | [Apache Tomcat 9.0.113 < 9.0.116 multiple vulnerabilities](cve/web/307004-apache-tomcat-90113-90116-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.1 | **6.0** | 4.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSL Certificate Signed Using Weak Hashing Algorithm](cve/web/35291-ssl-certificate-signed-using-weak-hashing-algorithm.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **5.7** | 815.0% | <span style="color:#ffd700">一般排程</span> |
 | [HTTP TRACE / TRACK Methods Allowed](cve/web/11213-http-trace-track-methods-allowed.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **5.7** | 2506.0% | <span style="color:#ffd700">一般排程</span> |
-| [JQuery 1.2 < 3.5.0 Multiple XSS](cve/system/136929-jquery-12-350-multiple-xss.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **5.1** | 9902.0% | <span style="color:#ffd700">一般排程</span> |
+| [JQuery 1.2 < 3.5.0 Multiple XSS](cve/system/136929-jquery-12-350-multiple-xss.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **5.1** | 9921.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.x < 7.0 Update 3w / 8.x < 8.0 Update 2e / 8.0 Update 3 < 8.0 Update 3f (VMSA-2025-0013)](cve/system/242168-vmware-esxi-7x-70-update-3w-8x-80-update-2e-80-update-3-80-update-3f-vmsa-2025-0.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **5.0** | 2.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **5.0** | 9331.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 9.6 Multiple Vulnerabilities](cve/services/187201-openssh-96-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **5.0** | 9331.0% | <span style="color:#ffd700">一般排程</span> |
