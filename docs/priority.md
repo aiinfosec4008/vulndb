@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-09-17 08:38`
+**資料更新時間：** `2026-09-18 11:38`
 
 ---
 
@@ -25,8 +25,8 @@
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
+| [VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2025-0004)](cve/system/237304-vmware-esxi-70-80-multiple-vulnerabilities-vmsa-2025-0004.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **9.3** | 820.0% | <span style="color:#ff003c">立即處理</span> |
 | [VMware Aria Operations 8.x < 8.18.5 Multiple Vulnerabilities (VMSA-2025-0015)](cve/system/266419-vmware-aria-operations-8x-8185-multiple-vulnerabilities-vmsa-2025-0015.md) | <span style="color:#ff6600">●</span> High | 7.8 | **9.2** | 3.0% | <span style="color:#ff003c">立即處理</span> |
-| [VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2025-0004)](cve/system/237304-vmware-esxi-70-80-multiple-vulnerabilities-vmsa-2025-0004.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **9.0** | 820.0% | <span style="color:#ff003c">立即處理</span> |
 
 ---
 
@@ -36,10 +36,10 @@
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
+| [VMWare Aria Operations 8.x < 8.18.6 Multiple Vulnerabilities (VMSA-2026-0001)](cve/system/300235-vmware-aria-operations-8x-8186-multiple-vulnerabilities-vmsa-2026-0001.md) | <span style="color:#ff003c">●</span> Critical | 9.0 | **7.9** | 1742.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware vCenter Server 7.x < 7.0 U3t / 8.x < 8.0.3 U3d Multiple Vulnerabilities (VMSA-2024-0019)](cve/system/207464-vmware-vcenter-server-7x-70-u3t-8x-803-u3d-multiple-vulnerabilities-vmsa-2024-00.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **7.9** | 5457.0% | <span style="color:#ff6600">優先排程</span> |
 | [OpenSSH < 9.8 RCE](cve/services/201194-openssh-98-rce.md) | <span style="color:#ff6600">●</span> High | 8.1 | **7.9** | 9951.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware vCenter Server 7.0 < 7.0U3r / 8.0 < 8.0U2d Multiple Vulnerabilities (VMSA-2024-0012)](cve/system/200746-vmware-vcenter-server-70-70u3r-80-80u2d-multiple-vulnerabilities-vmsa-2024-0012.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **7.9** | 2238.0% | <span style="color:#ff6600">優先排程</span> |
-| [VMWare Aria Operations 8.x < 8.18.6 Multiple Vulnerabilities (VMSA-2026-0001)](cve/system/300235-vmware-aria-operations-8x-8186-multiple-vulnerabilities-vmsa-2026-0001.md) | <span style="color:#ff003c">●</span> Critical | 9.0 | **7.7** | 1742.0% | <span style="color:#ff6600">優先排程</span> |
 | [OpenSSH < 10.3 Multiple Vulnerabilities](cve/services/306743-openssh-103-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.1 | **7.6** | 4.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware vRealize Log Insight 8.x < 8.10.2 Mutliple Vulnerabilities (VMSA-2023-0001)](cve/system/170661-vmware-vrealize-log-insight-8x-8102-mutliple-vulnerabilities-vmsa-2023-0001.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **7.6** | 8708.0% | <span style="color:#ff6600">優先排程</span> |
 | [SSL RC4 Cipher Suites Supported (Bar Mitzvah)](cve/web/65821-ssl-rc4-cipher-suites-supported-bar-mitzvah.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **7.6** | 8442.0% | <span style="color:#ff6600">優先排程</span> |
