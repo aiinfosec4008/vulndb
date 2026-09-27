@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-09-27 04:42`
+**資料更新時間：** `2026-09-28 00:36`
 
 ---
 
@@ -36,8 +36,8 @@
 
 | 弱點名稱 | 嚴重度 | CVSS v3 | VPR | EPSS | 建議 |
 |---------|--------|---------|-----|------|------|
+| [VMware vCenter Server 7.x < 7.0 U3t / 8.x < 8.0.3 U3d Multiple Vulnerabilities (VMSA-2024-0019)](cve/system/207464-vmware-vcenter-server-7x-70-u3t-8x-803-u3d-multiple-vulnerabilities-vmsa-2024-00.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **8.9** | 5457.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMWare Aria Operations 8.x < 8.18.6 Multiple Vulnerabilities (VMSA-2026-0001)](cve/system/300235-vmware-aria-operations-8x-8186-multiple-vulnerabilities-vmsa-2026-0001.md) | <span style="color:#ff003c">●</span> Critical | 9.0 | **7.9** | 1742.0% | <span style="color:#ff6600">優先排程</span> |
-| [VMware vCenter Server 7.x < 7.0 U3t / 8.x < 8.0.3 U3d Multiple Vulnerabilities (VMSA-2024-0019)](cve/system/207464-vmware-vcenter-server-7x-70-u3t-8x-803-u3d-multiple-vulnerabilities-vmsa-2024-00.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **7.9** | 5457.0% | <span style="color:#ff6600">優先排程</span> |
 | [OpenSSH < 9.8 RCE](cve/services/201194-openssh-98-rce.md) | <span style="color:#ff6600">●</span> High | 8.1 | **7.9** | 9951.0% | <span style="color:#ff6600">優先排程</span> |
 | [VMware vCenter Server 7.0 < 7.0U3r / 8.0 < 8.0U2d Multiple Vulnerabilities (VMSA-2024-0012)](cve/system/200746-vmware-vcenter-server-70-70u3r-80-80u2d-multiple-vulnerabilities-vmsa-2024-0012.md) | <span style="color:#ff003c">●</span> Critical | 9.8 | **7.9** | 2238.0% | <span style="color:#ff6600">優先排程</span> |
 | [OpenSSH < 10.3 Multiple Vulnerabilities](cve/services/306743-openssh-103-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.1 | **7.6** | 4.0% | <span style="color:#ff6600">優先排程</span> |
