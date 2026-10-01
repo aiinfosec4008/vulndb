@@ -2,8 +2,8 @@
 
 | 欄位 | 內容 |
 |------|------|
-| 嚴重度 | <span style="color:#00ff88">●</span> Low |
-| CVSS v3 | **N/A** |
+| 嚴重度 | <span style="color:#ffd700">●</span> Medium |
+| CVSS v3 | **4.0** |
 | VPR | 3.2 |
 | EPSS | 3215.00% |
 | Plugin ID | `10114` |

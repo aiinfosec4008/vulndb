@@ -33,7 +33,7 @@
 | [VMware vCenter Server 7.0 < 7.0U3q / 8.0 < 8.0U3 DoS (CVE-2024-37087)](201124-vmware-vcenter-server-70-70u3q-80-80u3-dos-cve-2024-37087.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [VMware vRealize Operations 8.x < 8.10 Arbitrary File Read (VMSA-2022-0026)](170605-vmware-vrealize-operations-8x-810-arbitrary-file-read-vmsa-2022-0026.md) | <span style="color:#ffd700">●</span> Medium | 4.9 |
 | [VMware vCenter Server 7.0.x < 7.0 U3v / 8.0.x < 8.0 U3g DoS (VMSA-2025-0014)](245963-vmware-vcenter-server-70x-70-u3v-80x-80-u3g-dos-vmsa-2025-0014.md) | <span style="color:#ffd700">●</span> Medium | 4.4 |
+| [ICMP Timestamp Request Remote Date Disclosure](10114-icmp-timestamp-request-remote-date-disclosure.md) | <span style="color:#ffd700">●</span> Medium | 4.0 |
 | [Terminal Services Doesn't Use Network Level Authentication (NLA) Only](58453-terminal-services-doesnt-use-network-level-authentication-nla-only.md) | <span style="color:#ffd700">●</span> Medium | 4.0 |
 | [Terminal Services Encryption Level is Medium or Low](57690-terminal-services-encryption-level-is-medium-or-low.md) | <span style="color:#ffd700">●</span> Medium | N/A |
-| [ICMP Timestamp Request Remote Date Disclosure](10114-icmp-timestamp-request-remote-date-disclosure.md) | <span style="color:#00ff88">●</span> Low | N/A |
 | [Terminal Services Encryption Level is not FIPS-140 Compliant](30218-terminal-services-encryption-level-is-not-fips-140-compliant.md) | <span style="color:#00ff88">●</span> Low | N/A |
