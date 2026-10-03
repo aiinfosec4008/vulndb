@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-10-01 11:22`
+**資料更新時間：** `2026-10-03 09:40`
 
 ---
 
@@ -66,8 +66,8 @@
 | [HTTP TRACE / TRACK Methods Allowed](cve/web/11213-http-trace-track-methods-allowed.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **5.7** | 2506.0% | <span style="color:#ffd700">一般排程</span> |
 | [JQuery 1.2 < 3.5.0 Multiple XSS](cve/system/136929-jquery-12-350-multiple-xss.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **5.1** | 9921.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.x < 7.0 Update 3w / 8.x < 8.0 Update 2e / 8.0 Update 3 < 8.0 Update 3f (VMSA-2025-0013)](cve/system/242168-vmware-esxi-7x-70-update-3w-8x-80-update-2e-80-update-3-80-update-3f-vmsa-2025-0.md) | <span style="color:#ff003c">●</span> Critical | 9.3 | **5.0** | 2.0% | <span style="color:#ffd700">一般排程</span> |
-| [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **5.0** | 9331.0% | <span style="color:#ffd700">一般排程</span> |
-| [OpenSSH < 9.6 Multiple Vulnerabilities](cve/services/187201-openssh-96-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **5.0** | 9331.0% | <span style="color:#ffd700">一般排程</span> |
+| [SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795)](cve/services/187315-ssh-terrapin-prefix-truncation-weakness-cve-2023-48795.md) | <span style="color:#ffd700">●</span> Medium | 5.9 | **5.0** | 9355.0% | <span style="color:#ffd700">一般排程</span> |
+| [OpenSSH < 9.6 Multiple Vulnerabilities](cve/services/187201-openssh-96-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **5.0** | 9355.0% | <span style="color:#ffd700">一般排程</span> |
 | [POP3 Service STLS Plaintext Command Injection](cve/web/52610-pop3-service-stls-plaintext-command-injection.md) | <span style="color:#ffd700">●</span> Medium | 0.0 | **5.0** | 1633.0% | <span style="color:#ffd700">一般排程</span> |
 | [SSL Medium Strength Cipher Suites Supported (SWEET32)](cve/web/42873-ssl-medium-strength-cipher-suites-supported-sweet32.md) | <span style="color:#ff6600">●</span> High | 7.5 | **5.0** | 9470.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware Cloud Foundation Operations 8.x < 8.18.7 Multiple Vulnerabilities (VMSA-2026-0004)](cve/system/320778-vmware-cloud-foundation-operations-8x-8187-multiple-vulnerabilities-vmsa-2026-00.md) | <span style="color:#ffd700">●</span> Medium | 5.4 | **4.9** | 7.0% | <span style="color:#ffd700">一般排程</span> |
