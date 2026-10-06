@@ -1,6 +1,6 @@
 # Web 類弱點清單
 
-共 **24** 個弱點，依嚴重度排序。
+共 **25** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -28,3 +28,4 @@
 | [web.config File Information Disclosure](121479-webconfig-file-information-disclosure.md) | <span style="color:#ffd700">●</span> Medium | 5.3 |
 | [POP3 Service STLS Plaintext Command Injection](52610-pop3-service-stls-plaintext-command-injection.md) | <span style="color:#ffd700">●</span> Medium | N/A |
 | [SSH Server CBC Mode Ciphers Enabled](70658-ssh-server-cbc-mode-ciphers-enabled.md) | <span style="color:#00ff88">●</span> Low | 3.7 |
+| [SSL Certificate Chain Contains RSA Keys Less Than 2048 bits](69551-ssl-certificate-chain-contains-rsa-keys-less-than-2048-bits.md) | <span style="color:#00ff88">●</span> Low | N/A |
