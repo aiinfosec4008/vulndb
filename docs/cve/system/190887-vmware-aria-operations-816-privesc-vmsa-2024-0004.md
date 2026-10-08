@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **6.7** |
 | VPR | 4.9 |
-| EPSS | 7.00% |
+| EPSS | 19.00% |
 | Plugin ID | `190887` |
 
 ## CVE 編號

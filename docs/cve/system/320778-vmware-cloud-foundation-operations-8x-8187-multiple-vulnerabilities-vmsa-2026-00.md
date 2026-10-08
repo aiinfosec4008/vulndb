@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **5.4** |
 | VPR | 4.9 |
-| EPSS | 7.00% |
+| EPSS | 42.00% |
 | Plugin ID | `320778` |
 
 ## CVE 編號

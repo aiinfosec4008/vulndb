@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **4.4** |
 | VPR | 3.0 |
-| EPSS | 4.00% |
+| EPSS | 29.00% |
 | Plugin ID | `245963` |
 
 ## CVE 編號

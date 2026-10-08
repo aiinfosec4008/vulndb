@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **5.3** |
 | VPR | 5.7 |
-| EPSS | 2506.00% |
+| EPSS | 2525.00% |
 | Plugin ID | `11213` |
 
 ## CVE 編號

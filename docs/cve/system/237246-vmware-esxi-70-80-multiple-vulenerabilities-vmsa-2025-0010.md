@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **6.8** |
 | VPR | 3.3 |
-| EPSS | 3.00% |
+| EPSS | 89.00% |
 | Plugin ID | `237246` |
 
 ## CVE 編號

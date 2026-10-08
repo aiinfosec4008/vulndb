@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#00ff88">●</span> Low |
 | CVSS v3 | **3.6** |
 | VPR | 4.1 |
-| EPSS | 1.00% |
+| EPSS | 29.00% |
 | Plugin ID | `269984` |
 
 ## CVE 編號

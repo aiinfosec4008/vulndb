@@ -5,7 +5,7 @@
 | 嚴重度 | <span style="color:#ffd700">●</span> Medium |
 | CVSS v3 | **6.5** |
 | VPR | 4.3 |
-| EPSS | 1619.00% |
+| EPSS | 1632.00% |
 | Plugin ID | `18405` |
 
 ## CVE 編號
