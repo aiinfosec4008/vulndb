@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-10-11 18:10`
+**資料更新時間：** `2026-10-13 13:32`
 
 ---
 
@@ -78,7 +78,7 @@
 | [OpenSSH < 10.4 Multiple Vulnerabilities](cve/services/326244-openssh-104-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 7.7 | **4.5** | 62.0% | <span style="color:#ffd700">一般排程</span> |
 | [Apache Tomcat 9.0.0.M1 < 9.0.119 multiple vulnerabilities](cve/web/323714-apache-tomcat-900m1-90119-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 6.1 | **4.3** | 19.0% | <span style="color:#ffd700">一般排程</span> |
 | [Remote Desktop Protocol Server Man-in-the-Middle Weakness](cve/system/18405-remote-desktop-protocol-server-man-in-the-middle-weakness.md) | <span style="color:#ffd700">●</span> Medium | 6.5 | **4.3** | 1632.0% | <span style="color:#ffd700">一般排程</span> |
-| [MTA Open Mail Relaying Allowed (thorough test)](cve/services/11852-mta-open-mail-relaying-allowed-thorough-test.md) | <span style="color:#ff6600">●</span> High | 7.5 | **4.3** | 1224.0% | <span style="color:#ffd700">一般排程</span> |
+| [MTA Open Mail Relaying Allowed (thorough test)](cve/services/11852-mta-open-mail-relaying-allowed-thorough-test.md) | <span style="color:#ff6600">●</span> High | 7.5 | **4.3** | 1236.0% | <span style="color:#ffd700">一般排程</span> |
 | [MTA Open Mail Relaying Allowed](cve/services/10262-mta-open-mail-relaying-allowed.md) | <span style="color:#ff6600">●</span> High | 7.5 | **4.3** | 1236.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.0 / 8.0 Out-of-Bounds read (CVE-2024-37086)](cve/system/201125-vmware-esxi-70-80-out-of-bounds-read-cve-2024-37086.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **4.2** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 7.8](cve/services/159490-openssh-78.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **4.2** | 9863.0% | <span style="color:#ffd700">一般排程</span> |
