@@ -2,7 +2,7 @@
 
 依 Tenable VPR（Vulnerability Priority Rating）分數排序，整合威脅情報與漏洞利用難度，比單純 CVSS 更貼近實際風險。
 
-**資料更新時間：** `2026-10-13 13:32`
+**資料更新時間：** `2026-10-14 10:46`
 
 ---
 
@@ -82,7 +82,7 @@
 | [MTA Open Mail Relaying Allowed](cve/services/10262-mta-open-mail-relaying-allowed.md) | <span style="color:#ff6600">●</span> High | 7.5 | **4.3** | 1236.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.0 / 8.0 Out-of-Bounds read (CVE-2024-37086)](cve/system/201125-vmware-esxi-70-80-out-of-bounds-read-cve-2024-37086.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **4.2** | 5.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 7.8](cve/services/159490-openssh-78.md) | <span style="color:#ffd700">●</span> Medium | 5.3 | **4.2** | 9863.0% | <span style="color:#ffd700">一般排程</span> |
-| [OpenSSH < 10.1 / 10.1p1 Multiple Vulnerabilities](cve/services/269984-openssh-101-101p1-multiple-vulnerabilities.md) | <span style="color:#00ff88">●</span> Low | 3.6 | **4.1** | 29.0% | <span style="color:#ffd700">一般排程</span> |
+| [OpenSSH < 10.1 / 10.1p1 Multiple Vulnerabilities](cve/services/269984-openssh-101-101p1-multiple-vulnerabilities.md) | <span style="color:#00ff88">●</span> Low | 3.6 | **4.1** | 44.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware vCenter Server 7.0.x < 7.0 U3w / 8.0.x < 8.0 U3g SMTP Header Injection (VMSA-2025-0016)](cve/services/266405-vmware-vcenter-server-70x-70-u3w-80x-80-u3g-smtp-header-injection-vmsa-2025-0016.md) | <span style="color:#ff6600">●</span> High | 8.5 | **3.9** | 64.0% | <span style="color:#ffd700">一般排程</span> |
 | [VMware ESXi 7.0 / 8.0 Multiple Vulenerabilities (VMSA-2025-0010)](cve/system/237246-vmware-esxi-70-80-multiple-vulenerabilities-vmsa-2025-0010.md) | <span style="color:#ffd700">●</span> Medium | 6.8 | **3.3** | 89.0% | <span style="color:#ffd700">一般排程</span> |
 | [OpenSSH < 10.5 Multiple Vulnerabilities](cve/services/335161-openssh-105-multiple-vulnerabilities.md) | <span style="color:#ffd700">●</span> Medium | 4.8 | **3.2** | 16.0% | <span style="color:#ffd700">一般排程</span> |

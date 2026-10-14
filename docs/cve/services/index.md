@@ -1,6 +1,6 @@
 # 服務類弱點清單
 
-共 **28** 個弱點，依嚴重度排序。
+共 **29** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -30,5 +30,6 @@
 | [OpenSSH < 10.0 DisableForwarding](234554-openssh-100-disableforwarding.md) | <span style="color:#00ff88">●</span> Low | 3.8 |
 | [SSH Weak Key Exchange Algorithms Enabled](153953-ssh-weak-key-exchange-algorithms-enabled.md) | <span style="color:#00ff88">●</span> Low | 3.7 |
 | [OpenSSH < 10.1 / 10.1p1 Multiple Vulnerabilities](269984-openssh-101-101p1-multiple-vulnerabilities.md) | <span style="color:#00ff88">●</span> Low | 3.6 |
+| [OpenSSH < 10.6 Multiple Vulnerabilities](364698-openssh-106-multiple-vulnerabilities.md) | <span style="color:#00ff88">●</span> Low | 2.5 |
 | [SMTP Service Cleartext Login Permitted](54582-smtp-service-cleartext-login-permitted.md) | <span style="color:#00ff88">●</span> Low | N/A |
 | [SSH Weak MAC Algorithms Enabled](71049-ssh-weak-mac-algorithms-enabled.md) | <span style="color:#00ff88">●</span> Low | N/A |
