@@ -1,6 +1,6 @@
 # 系統類弱點清單
 
-共 **33** 個弱點，依嚴重度排序。
+共 **34** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
@@ -9,6 +9,7 @@
 | [VMware vRealize Log Insight 8.x < 8.10.2 Mutliple Vulnerabilities (VMSA-2023-0001)](170661-vmware-vrealize-log-insight-8x-8102-mutliple-vulnerabilities-vmsa-2023-0001.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
 | [VMware vCenter Server 7.0 < 7.0U3r / 8.0 < 8.0U2d Multiple Vulnerabilities (VMSA-2024-0012)](200746-vmware-vcenter-server-70-70u3r-80-80u2d-multiple-vulnerabilities-vmsa-2024-0012.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
 | [VMware vCenter Server 7.x < 7.0 U3t / 8.x < 8.0.3 U3d Multiple Vulnerabilities (VMSA-2024-0019)](207464-vmware-vcenter-server-7x-70-u3t-8x-803-u3d-multiple-vulnerabilities-vmsa-2024-00.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
+| [HPE iLO 5 < 3.22 / iLO 6 < 1.79 / iLO 7 < 1.25.01 Multiple Vulnerabilities (HPESBHF05170)](366538-hpe-ilo-5-322-ilo-6-179-ilo-7-12501-multiple-vulnerabilities-hpesbhf05170.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
 | [VMware ESXi 7.0 / 8.0 Multiple Vulnerabilities (VMSA-2025-0004)](237304-vmware-esxi-70-80-multiple-vulnerabilities-vmsa-2025-0004.md) | <span style="color:#ff003c">●</span> Critical | 9.3 |
 | [VMware ESXi 7.x < 7.0 Update 3w / 8.x < 8.0 Update 2e / 8.0 Update 3 < 8.0 Update 3f (VMSA-2025-0013)](242168-vmware-esxi-7x-70-update-3w-8x-80-update-2e-80-update-3-80-update-3f-vmsa-2025-0.md) | <span style="color:#ff003c">●</span> Critical | 9.3 |
 | [VMware Aria Operations for Logs < 8.18.3 Multiple Vulnerabilities (VMSA-2025-0003)](215005-vmware-aria-operations-for-logs-8183-multiple-vulnerabilities-vmsa-2025-0003.md) | <span style="color:#ff003c">●</span> Critical | 9.0 |
