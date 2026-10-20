@@ -4,7 +4,7 @@
 |------|------|
 | 嚴重度 | <span style="color:#ff003c">●</span> Critical |
 | CVSS v3 | **9.8** |
-| VPR | N/A |
+| VPR | 4.9 |
 | EPSS | N/A |
 | Plugin ID | `366538` |
 
