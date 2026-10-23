@@ -1,10 +1,11 @@
 # Web 類弱點清單
 
-共 **25** 個弱點，依嚴重度排序。
+共 **26** 個弱點，依嚴重度排序。
 
 | 弱點名稱 | 嚴重度 | CVSS v3 |
 |---------|--------|---------|
 | [Apache Tomcat 9.0.0.M1 < 9.0.118 multiple vulnerabilities](314334-apache-tomcat-900m1-90118-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
+| [Apache Tomcat 9.0.118 < 9.0.123 multiple vulnerabilities](367787-apache-tomcat-90118-90123-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.8 |
 | [Apache Tomcat 9.0.113 < 9.0.116 multiple vulnerabilities](307004-apache-tomcat-90113-90116-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.1 |
 | [Apache Tomcat 9.0.0.M1 < 9.0.119 multiple vulnerabilities](323714-apache-tomcat-900m1-90119-multiple-vulnerabilities.md) | <span style="color:#ff003c">●</span> Critical | 9.1 |
 | [Open WebUI < 0.9.5 Multiple Vulnerabilities](314912-open-webui-095-multiple-vulnerabilities.md) | <span style="color:#ff6600">●</span> High | 8.5 |
